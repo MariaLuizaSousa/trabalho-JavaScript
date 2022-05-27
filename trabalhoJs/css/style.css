@@ -1,0 +1,44 @@
+h2 {
+    text-align: center;
+}
+
+label {
+    text-align: center;
+    margin: auto;
+    right: auto;
+}
+
+caption {
+    text-align: center;
+}
+
+th {
+    padding: 15px;
+    text-align: left;
+    border: 2px solid black;
+    background-color: maroon (133, 192, 133);
+}
+
+table {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: azure(118, 160, 118);
+}
+div{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+fieldset {
+    max-width: 500px;
+}
+
+input {
+    outline-color: brown  (30, 202, 30);
+}
+body{
+    
+    background-color: thistle;
+
+}

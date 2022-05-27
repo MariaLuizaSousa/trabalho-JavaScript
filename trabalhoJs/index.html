@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Js</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body style="margin: 25px ;">
+    
+    <h2>Cadrasto de Produtos</h2>
+ 
+    <div>
+        <form id="infos-prod">
+    
+            <label for="name">Nome:</label>
+            <input type="text" id="nome" name="Nome" placeholder="Produto" /> 
+
+            <label for="preco">Preço:</label>
+            <input type="text" id="preco" name="Preco" placeholder=" R$400,00" />  
+
+            <input type="checkbox" name="prime" id="prime"> 
+            <label for="prime">É prime?</label> 
+
+            <input type="hidden" id="idx" value="novo" /> 
+            <input type="submit" value="Salvar"> 
+        
+        </form>
+
+        <div id="msg-erro"></div>
+    </div>
+    
+
+    <table>
+        <caption>
+            <h3>Lista de Produtos</h3>
+        </caption>
+
+        <thead>
+            
+            <tr>
+                <th>Identificador</th>
+                <th>Nome do Produto</th>
+                <th>Preço dos Produtos</th>
+                <th>Prime</th>
+                <th>Ações</th>
+            </tr>
+        
+        </thead>
+        <tbody id="tbody">
+            
+        </tbody>
+
+    </table>
+    <script src="js/index.js"></script>
+</body>
+</html>
